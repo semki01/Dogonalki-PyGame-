@@ -1,18 +1,18 @@
 from pygame import *
 
 window = display.set_mode((700, 500))
-display.set_caption('Догонялки')
-background = transform.scale(image.load('background.png'), (700, 500))
+display.set_caption('Dog Nalki')
+background = transform.scale(image.load('background.jpg'), (700, 500))
 
 #данные о спрайте картинки
-x1 = 300
+x1 = 500
 y1 = 300
 
 x2 = 100
-y2 = 300
+y2 = 283
 
-sprite_1 = transform.scale(image.load('sprite1.png'), (100, 100))
-sprite_2 = transform.scale(image.load('sprite2.png'), (100, 100))
+sprite_1 = transform.scale(image.load('Cat Nalki.png'), (100, 100))
+sprite_2 = transform.scale(image.load('Dog Nalki.png'), (130, 130))
 speed = 10
 
 #игровой цикл
